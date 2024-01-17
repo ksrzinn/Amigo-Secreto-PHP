@@ -1,0 +1,153 @@
+/* Reset Session */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F2F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Session */
+.containerLinks{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E70B0;
+    color: #D9DEF1;
+    text-decoration: none;
+}
+
+.containerLinks > nav > ul > li > a{
+    text-decoration: none;
+    background-color: #3E70B0;
+    color: #FFFEFF;
+}
+
+/* Activated Effect */
+.containerLinks > nav > ul > li > a#activated{
+    font-weight: bold;
+}
+
+.containerLinks > nav > ul{
+    background-color: #3E70B0;
+    list-style: none;
+    padding: 0;
+}
+
+.containerLinks > nav > ul > li{
+
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Major Container Session */
+.containerMajor{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 85%;
+    height: 100vh;
+    justify-items: center;
+    justify-content: center;
+}
+
+.containerPeoplesTitle{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.containerTitle{
+    margin-top: 75px;
+    margin-bottom: 10%;
+}
+/* Card Peoples Session */
+    /* SearchBar Session */
+    .searchBar{
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+    }
+
+    .searchBar > .search > #search{
+        text-align: center;
+        border:none;
+        width: 260px;
+    }
+    
+    .searchBar > .search > #submitSearch{
+        padding: 6px;
+        border: none;
+    }
+    /* Peaples Session */
+    .minorContainerPeoples{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 85vh;
+        margin-top: 5px;
+        margin-bottom: 3px;
+    }
+    
+    .contentPeoples{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .minorContainerPeoples > button{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        border: none;
+    }
+
+    .contentPeoples > span{
+        text-decoration: none;
+        color: gray;
+    }
+
+    .contentPeoples > p{
+        font-weight: bold;
+    }
+
+.containerPeoples{
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.containerSearch{
+    width: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerSearch > span{
+    color: #184473;
+    font-weight: bold;
+} 
+
+.separation{
+width: 85vh;
+}

@@ -1,0 +1,5 @@
+|   Field   |   Type            |  Null |  Key  |       Extra       |
+---------------------------------------------------------------------
+|   id      |       int         |   NO	|   PRI |   auto_increment  |
+|   nome    |   varchar(20)     |	NO  |       |                   |		
+|   email   |	varchar(254)    |	NO  |	UNI |                   |	
